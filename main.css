@@ -1,10 +1,14 @@
 html, body {
-  background: url('witcher1.jpg');
-  background-size: cover;
   margin: 0;
   padding: 0; 
 }
 
+html {
+  background: url('witcher1.jpg') #37474f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
 
 .box {
   background-color: #cfd8dc;
@@ -13,7 +17,7 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -300px 0 0 -250px;
+  margin: -300px 0 0 -600px;
   -webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
   -moz-box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
   box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
@@ -55,7 +59,7 @@ a {
 }
 
 a:hover {
-  color: #eceff1 !important;
+  color: #bf360c !important;
 }
 
 a:active {
@@ -63,7 +67,7 @@ a:active {
 }
 
 #all a {
-  color: #eceff1 !important;
+  color: #bf360c !important;
 
 }
 
@@ -73,4 +77,51 @@ a:active {
   border-style: solid;
   border-width: 20px 20px 0 20px;
   border-color: #455a64 transparent transparent transparent;
+  margin-left: 40px;
+}
+
+.users {
+  height: 370px;
+}
+
+.search-box {
+  background-color: #455a64;
+  height: 100px;
+  font-size: 15px;
+  color: #37474f;
+  overflow: hidden; 
+  z-index: 1000;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  outline: none !important;
+  color: #37474f;
+}
+
+input[type="text"]:focus {
+  outline: none !important;
+}
+
+input#search {
+  background: #cfd8dc;
+  border: none;
+  width: 300px;
+  height: 40px;
+  margin: 30px 0 0 75px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(0,0,0,1);
+  box-shadow: 0px 0px 10px -5px rgba(0,0,0,1);
+}
+
+button#submit {
+  font-size: 25px;
+  border: none;
+  color: #bf360c;
+  height: 55px;
+  width: 55px;
+  background: transparent;
+  text-decoration: none !important;
+  outline: none !important;
+  text-shadow: 1px 2px 3px #263238;
 }
