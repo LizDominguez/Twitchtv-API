@@ -1,0 +1,76 @@
+html, body {
+  background: url('witcher1.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0; 
+}
+
+
+.box {
+  background-color: #cfd8dc;
+  height: 600px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -250px;
+  -webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+  -moz-box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+  box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin: 30px 0 30px 100px;
+}
+
+.menu {
+  background-color: #455a64;
+  height: 110px;
+  font-size: 40px;
+  color: #cfd8dc;
+  text-align: center;
+  font-family: 'Kumar One';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+}
+
+li {
+  display: inline-block;
+  margin: 35px 10px 0px 10px;
+}
+
+a {
+  color: #cfd8dc !important;
+  text-decoration: none !important;
+  text-shadow: 1px 2px 3px #263238;
+}
+
+a:hover {
+  color: #eceff1 !important;
+}
+
+a:active {
+  color: #eceff1 !important;
+}
+
+#all a {
+  color: #eceff1 !important;
+
+}
+
+.index {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 20px;
+  border-color: #455a64 transparent transparent transparent;
+}
