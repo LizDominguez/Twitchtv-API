@@ -23,12 +23,6 @@ html {
   box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
 }
 
-.logo {
-  width: 300px;
-  height: auto;
-  margin: 30px 0 30px 100px;
-}
-
 .menu {
   background-color: #455a64;
   height: 110px;
@@ -43,11 +37,10 @@ ul {
   margin: 0; 
   padding: 0;
   overflow: hidden;
-  text-align: center;
   height: 100%;
 }
 
-li {
+li.links {
   display: inline-block;
   margin: 35px 10px 0px 10px;
 }
@@ -78,10 +71,39 @@ a:active {
   border-width: 20px 20px 0 20px;
   border-color: #455a64 transparent transparent transparent;
   margin-left: 40px;
+  position: absolute;
+  z-index: 1000;
 }
 
 .users {
-  height: 370px;
+  height: 390px;
+  overflow: auto;
+}
+
+.user {
+  width: 100%;
+  height: 120px;
+  font-size: 15px;
+  color: #263238;
+  font-family: 'Roboto Mono';
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+li.user-info {
+  display: inline-block;
+  margin: 20px 0px 0px 14px;
+}
+
+#offline {
+  background: #ffab91;
+}
+
+#online {
+  background: #a5d6a7;
 }
 
 .search-box {
@@ -89,6 +111,7 @@ a:active {
   height: 100px;
   font-size: 15px;
   color: #37474f;
+  font-family: 'Roboto Mono';
   overflow: hidden; 
   z-index: 1000;
 }
@@ -125,3 +148,6 @@ button#submit {
   outline: none !important;
   text-shadow: 1px 2px 3px #263238;
 }
+
+
+
