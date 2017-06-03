@@ -98,11 +98,11 @@ li.user-info {
   margin: 20px 0px 0px 14px;
 }
 
-#offline {
+.offline {
   background: #ffab91;
 }
 
-#online {
+.online {
   background: #a5d6a7;
 }
 
