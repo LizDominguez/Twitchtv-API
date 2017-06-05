@@ -23,7 +23,7 @@ html {
   box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
 }
 
-.menu {
+nav {
   background-color: #455a64;
   height: 110px;
   font-size: 40px;
@@ -40,22 +40,22 @@ ul {
   height: 100%;
 }
 
-.menu li {
+nav li {
   display: inline-block;
   margin: 35px 10px 0px 10px;
 }
 
-.menu a {
+nav a {
   color: #cfd8dc !important;
   text-decoration: none !important;
   text-shadow: 1px 2px 3px #263238;
 }
 
-.menu a:hover {
+nav a:hover {
   color: #bf360c !important;
 }
 
-.menu a:active {
+nav a:active {
   color: #eceff1 !important;
 }
 
